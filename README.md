@@ -16,6 +16,9 @@ Shared skill instructions live under `.agents/skills/`. Files under `.github/ski
 ### GitHub Copilot
 
 - `media-analyzer`: general-purpose media analysis — summarization, information extraction, content analysis
+- `summarize-article`: summarize an article from a URL or local file into a markdown brief under `tmp/`
+- `summarize-book`: summarize a book, pamphlet, or essay from a title and optional author into a markdown brief under `tmp/`
+- `summarize-video`: summarize a video from a URL via subtitle track into a markdown brief under `tmp/`
 - `optimize-repo`: maintain repo's cross-harness conventions
 
 Shared rules: [AGENTS.md](./AGENTS.md). Copilot-specific routing: [.github/copilot-instructions.md](./.github/copilot-instructions.md).
