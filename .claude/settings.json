@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Skill(optimize-repo)",
+      "WebFetch(domain:de.wikipedia.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:europepmc.org)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:doaj.org)",
+      "WebFetch(domain:tripdatabase.com)",
+      "WebFetch(domain:openmd.com)",
+      "WebFetch(domain:freemedicaljournals.com)",
+      "WebFetch(domain:www.sci-hub.st)"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "mkhl.shfmt",
+    "eamodio.gitlens",
+    "timonwong.shellcheck",
+    "editorconfig.editorconfig",
+    "mads-hartmann.bash-ide-vscode"
+  ]
+}
