@@ -21,6 +21,7 @@ General-purpose media analysis workspace. Summarize, analyze, and extract struct
 
 **Medicine and heavy science** — When the question goes beyond general knowledge (medical topics, nutritional science, pharmacology, clinical research, or any topic requiring peer-reviewed evidence), scientific paper databases replace Wikipedia as the primary source:
 
+- **DocCheck Flexicon** (`https://flexikon.doccheck.com/de/Hauptseite`) — German medical wiki; consult first for general German-language medical questions (definitions, pathophysiology, diagnostics, clinical basics). Only fall back to paper databases for more detailed, literature-backed evidence.
 - **PubMed** (`pubmed.ncbi.nlm.nih.gov`) — biomedical and life sciences literature via NCBI E-utilities
 - **Europe PMC** (`europepmc.org`) — life sciences literature with open-access full text via REST API
 - **Google Scholar** (`scholar.google.com`) — broad academic search across disciplines

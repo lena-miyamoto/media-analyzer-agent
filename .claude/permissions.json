@@ -1,0 +1,12 @@
+{
+  "$schema": "~/.claude/hooks/tool-permissions/permissions.schema.json",
+  "version": 1,
+  "allow": {
+    "WebFetch": [
+      "^https://doi.org(:\\d+)?(/|$)",
+      "^https://www.mdpi.com(:\\d+)?(/|$)",
+      "^https://link.springer.com(:\\d+)?(/|$)"
+    ],
+    "Bash": ["^python3? -m json.tool(\\s|$)", "^html2text\\s", "^yt-dlp\\s"]
+  }
+}
