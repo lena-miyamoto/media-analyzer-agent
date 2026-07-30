@@ -14,6 +14,7 @@ General-purpose media analysis workspace. Summarize, analyze, and extract struct
 - Ignore validation noise from intentionally empty optional fields.
 - Use standard German orthography (umlauts, `ß`) unless the user asks for ASCII or a technical constraint requires it.
 - Instruction files in this repo must not cite a generated, ignored, or archive output path as a template, exemplar, source of truth, or reusable pattern. Such paths may be documented only as output locations, path schemas, or concrete examples of where newly generated material should be written.
+- `compress-skill` compresses instruction `.md` files in place to cut token cost while keeping meaning exact. Invoke after editing any instruction file in this repo, or when explicitly asked.
 
 ## Source Priority
 
