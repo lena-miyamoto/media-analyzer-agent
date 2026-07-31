@@ -7,4 +7,4 @@ user-invocable: true
 
 # Summarize Video
 
-Wrapper. Source of truth: `.agents/skills/summarize-video/SKILL.md`.
+Wrapper. Source of truth: `.claude/skills/summarize-video/SKILL.md`.

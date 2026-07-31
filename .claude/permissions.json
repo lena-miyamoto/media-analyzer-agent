@@ -4,9 +4,22 @@
   "allow": {
     "WebFetch": [
       "^https://doi.org(:\\d+)?(/|$)",
-      "^https://www.mdpi.com(:\\d+)?(/|$)",
-      "^https://link.springer.com(:\\d+)?(/|$)"
+      "^https://de\\.wikipedia\\.org(:\\d+)?(/|$)",
+      "^https://en\\.wikipedia\\.org(:\\d+)?(/|$)"
     ],
-    "Bash": ["^python3? -m json.tool(\\s|$)", "^html2text\\s", "^yt-dlp\\s"]
+    "Skill": [
+      "^media-db$"
+    ],
+    "Bash": [
+      "^python3? -m json.tool(\\s|$)",
+      "^html2text\\s",
+      "^yt-dlp\\s",
+      "^uv run media-db(\\s|$)",
+      "^uv run media-db-lookup(\\s|$)",
+      "^uv run media-db-query(\\s|$)",
+      "^uv run media-db-integrity-check(\\s|$)",
+      "^uv run lint-md(\\s|$)",
+      "^uv run test(\\s|$)"
+    ]
   }
 }

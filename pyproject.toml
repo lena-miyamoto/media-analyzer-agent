@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "media-analyzer-agent"
+version = "0.1.0"
+description = "General-purpose media analysis workspace with local media-db archive."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+media-db = "entrypoints:media_db"
+media-db-lookup = "entrypoints:media_db_lookup"
+media-db-query = "entrypoints:media_db_query"
+media-db-integrity-check = "entrypoints:media_db_integrity_check"
+lint-md = "entrypoints:lint_md"
+test = "entrypoints:test"
+
+[tool.setuptools]
+py-modules = ["entrypoints"]
+
+[tool.setuptools.package-dir]
+"" = ".claude/scripts"
+
+[dependency-groups]
+dev = [
+    "pymarkdownlnt>=0.9.38",
+    "pytest>=9.0.3",
+]

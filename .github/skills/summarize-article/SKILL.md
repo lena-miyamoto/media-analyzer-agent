@@ -7,4 +7,4 @@ user-invocable: true
 
 # Summarize Article
 
-Wrapper. Source of truth: `.agents/skills/summarize-article/SKILL.md`.
+Wrapper. Source of truth: `.claude/skills/summarize-article/SKILL.md`.

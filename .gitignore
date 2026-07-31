@@ -1,5 +1,8 @@
 temp/
 tmp/
+media-db/
+!.claude/skills/media-db/
+!.github/skills/media-db/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

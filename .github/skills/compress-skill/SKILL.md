@@ -7,4 +7,4 @@ user-invocable: true
 
 # Compress Skill
 
-Wrapper. Source of truth: `.agents/skills/compress-skill/SKILL.md`.
+Wrapper. Source of truth: `.claude/skills/compress-skill/SKILL.md`.

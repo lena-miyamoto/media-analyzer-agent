@@ -11,7 +11,7 @@ Not an application or library. A workspace for:
 
 ## Tool Surfaces
 
-Shared skill instructions live under `.agents/skills/`. Files under `.github/skills/` and `.claude/skills/` are thin discovery wrappers.
+Shared skill instructions live under `.claude/skills/`. Files under `.github/skills/` are thin discovery wrappers.
 
 ### GitHub Copilot
 
